@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="./bundle.js">
+    </script>
+    <title>Landslide.js</title>
+</head>
+
+<body class="body">
+
+   
+    <div class="mobile-height">
+        <canvas id="mobilegame" style="width: 100%; height: auto; "></canvas>
+        <div style="width: 100%; height: 0; padding-bottom: 109.375%; position: absolute;">
+        <div id="menu" style="display: block;
+  position:absolute;
+  height: auto;
+  width: auto;
+  bottom:0;
+  top:0;
+  left:0;
+  right:0; display: none;">
+            <h1>
+                You climbed <span id="height"> </span>
+            </h1>
+            <h4 id="death-info">
+            </h4>
+            <h2>
+                tap HERE to play again
+            </h2>
+        </div>
+        <div id="splash" style="position: absolute; height: auto; width: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; display: flex;">
+        <h1>LANDSLIDE.js</h1>
+        <h2>tap HERE to play</h2>
+        </div>
+        </div>
+        <div class="button-container">
+            <!-- <div id="joypad">
+                <div class="joypad-display"></div>
+            </div> -->
+
+            
+            <div id="left">
+                <div class="left-display">
+                <div class="jump-text"> LEFT</div>
+                </div>
+            </div>
+
+            <div id="right">
+                <div class="left-display" style="background-color: aquamarine;">
+                <div class="jump-text"> RIGHT</div>
+                </div>
+            </div>
+
+            <div id="jump-button">
+                <div class="jump-display">
+                    <div class="jump-text">JUMP</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
